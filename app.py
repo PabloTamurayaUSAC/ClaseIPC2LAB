@@ -1,5 +1,10 @@
+from nodo import Nodo
+
+
 def main():
-    print("Hola Mundo")
+    objetoNodo = Nodo()
+    objetoNodo.setIndice(100)
+    print("objetoNodo tiene como indice", objetoNodo.getIndice())
 
 
 main()
